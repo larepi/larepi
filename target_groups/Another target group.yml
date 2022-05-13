@@ -1,0 +1,6 @@
+type: target-group
+name: Another target group
+description: proeba
+conditions:
+  - operator: is-true
+    property: isLoggedIn

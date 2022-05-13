@@ -1,0 +1,19 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+enabled: false
+flag: default.headerColor
+availableValues:
+  - is-white
+  - is-primary
+  - is-dark
+conditions:
+  - group:
+      name: Team Awesome
+    value:
+      - percentage: 33
+        option: is-white
+      - percentage: 33
+        option: is-primary
+      - percentage: 34
+        option: is-dark
+value: is-primary
