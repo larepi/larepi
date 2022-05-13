@@ -1,0 +1,9 @@
+type: target-group
+name: Team Awesome
+description: FM team but more pro :D
+conditions:
+  - operator: in-array
+    property: company
+    operand:
+      - connected
+      - 'off'
