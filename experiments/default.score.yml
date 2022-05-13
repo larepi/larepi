@@ -1,0 +1,9 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+flag: default.score
+conditions:
+  - property:
+      name: isLoggedIn
+      operator: is-false
+    value: true
+value: false
